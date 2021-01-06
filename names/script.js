@@ -122,6 +122,40 @@ function buildVideoList(){
 						console.log(model);
 					}
 				}
+				else if(location.href == "https://yelinked-movies.netlify.app/names/johnwick.html"){
+					if ( model == "johnwick")
+					{
+						let videodiv = document.createElement("div");
+						videodiv.setAttribute('name', 'videos');
+						videodiv.setAttribute('id', i+"videos");
+						document.getElementById("listnav").appendChild(videodiv);
+						let imagediv = document.createElement("div");
+							imagediv.setAttribute('name', 'feature-img');
+							imagediv.setAttribute('id', i+"feature-img");
+							document.getElementById(i+"videos").appendChild(imagediv);
+							
+						let videoimage = document.createElement("img");
+							videoimage.setAttribute('src', videoXmlNode.children[0].innerHTML);
+							videoimage.setAttribute('width', '100%');
+							document.getElementById(i+"feature-img").appendChild(videoimage);
+
+						let playimage = document.createElement("img");
+							playimage.setAttribute('name', 'playbtn');
+							playimage.setAttribute('id', 'playbtn');
+							playimage.setAttribute('src', '../img/play.png');
+							playimage.setAttribute('onclick', "playVideo('"+ videoXmlNode.children[1].innerHTML +"')");
+							document.getElementById(i+"feature-img").appendChild(playimage);
+							
+						let videotitle = document.createElement("p");
+							videotitle.setAttribute('name', 'title');
+							videotitle.innerText = videoXmlNode.children[2].innerHTML;
+							document.getElementById(i+"videos").appendChild(videotitle);	
+					}
+					else 
+					{
+						console.log(model);
+					}
+				}
 				else
 				{
 					console.log(location.href);
