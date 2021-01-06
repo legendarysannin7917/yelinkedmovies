@@ -130,4 +130,19 @@
 		<linkvideo>https://mega.nz/embed/5EwHTASA#KCo3rKBLrRYlmhfCsRSVC8LxyHhqeuSejud2B0R1Cr0</linkvideo>	
 		<title>Spider-Man: Far From Home (2019)</title>		
 	</videos>
+	<videos name="johnwick">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://mega.nz/embed/oZ9VgCRQ#-8dmXcsaSXgh7p-2_vwKZ68AnCUS0u58qd82DcjBQFc</linkvideo>	
+		<title>John Wick (2014)</title>		
+	</videos>
+	<videos name="johnwick">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://mega.nz/embed/cIkRWKjR#vZ5CB3dUrJNM5afpo5vFFFO4FYpOSJi8JQfdsm60CIA</linkvideo>	
+		<title>John Wick Chapter 2 (2017)</title>		
+	</videos>
+	<videos name="johnwick">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://mega.nz/embed/BcEWATbT#ILFuhpIExEN4wpc-QJL20W6Np3OVur4wlJq8zixbB-I</linkvideo>	
+		<title>John Wick Chapter 3 - Parabellum (2019)</title>		
+	</videos>
 </root>
