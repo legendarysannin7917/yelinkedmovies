@@ -54,7 +54,7 @@ function buildVideoList(){
 			videos.forEach(videoXmlNode => {
 				i ++;
 				console.log(videos.length);
-				if (location.href == "http://localhost:8080/video.html" || location.href == "http://localhost:8080/video")
+				if (location.href == "https://yelinked-movies.netlify.app/video.html" || location.href == "https://yelinked-movies.netlify.app/video")
 				{
 					let videodiv = document.createElement("div");
 						videodiv.setAttribute('name', 'videos');
