@@ -54,7 +54,7 @@ function buildVideoList(){
 			videos.forEach(videoXmlNode => {
 				i ++;
 				let model = videos[i-1].getAttribute('name');
-				if(location.href == "http://localhost:8080/names/matrix.html"){
+				if(location.href == "https://yelinked-movies.netlify.app/names/matrix.html"){
 					if ( model == "matrix")
 					{
 						let videodiv = document.createElement("div");
@@ -88,7 +88,7 @@ function buildVideoList(){
 						console.log(model);
 					}
 				}
-				else if(location.href == "http://localhost:8080/names/avengers.html"){
+				else if(location.href == "https://yelinked-movies.netlify.app/names/avengers.html"){
 					if ( model == "avengers")
 					{
 						let videodiv = document.createElement("div");
