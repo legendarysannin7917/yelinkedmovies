@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Videos - Yelinked</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="../YELinked.png">
+		<link rel="stylesheet" type="text/css" href="../VideoStyle.css">
+	</head>
+	<body>
+		<header>
+			<a href="../index.php"><img name="headerlogo" src="../logo.png" alt="logo"/>Yelinked</a>		
+		</header>
+		<nav class="nav-main">
+			<div class="btn-toggle-nav" onclick="toggleNav()" ></div>
+			<aside class="nav-sidebar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../movies.html">Movies</a></li>
+					<li><a href="../video.html">Videos</a></li>
+				</ul>
+			</aside>
+		</nav>
+		<nav name="listnav" id="listnav">
+			
+		</nav>
+		<div name="video-player" id="videoPlayer">
+			<img src="../img/close.png" name="closebtn" onclick="stopVideo()">
+			<iframe id="playingVideo" frameborder="0" src="https://mega.nz/embed/UIQFgIjK#iColjuJoxSDHRW99Ez1HkKPHWt0cP8Ev5272LDcUKjA!1a" allowfullscreen></iframe>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
