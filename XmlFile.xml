@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
     <videos name="matrix">
-		<linkimage>image.jpg</linkimage>
+		<linkimage>https://img.yts.mx/assets/images/movies/The_Matrix_1999/medium-cover.jpg</linkimage>
 		<linkvideo>https://mega.nz/embed/ZYRSVZYL#Ai5H-3e-3yERJT4hqbfBMiwOCv_2uONZUHsEYnHkD6g</linkvideo>
 		<title>The Matrix (1999)</title>	
 	</videos>
