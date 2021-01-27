@@ -145,4 +145,9 @@
 		<linkvideo>https://mega.nz/embed/BcEWATbT#ILFuhpIExEN4wpc-QJL20W6Np3OVur4wlJq8zixbB-I</linkvideo>	
 		<title>John Wick Chapter 3 - Parabellum (2019)</title>		
 	</videos>
+	<videos name="harrypotter">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://mega.nz/embed/RJsk3IpT#ulfPNpDAImtpBpbPNvu87PaKAXH-rAglGALR-Ah6my4</linkvideo>	
+		<title>Harry Potter and the Philosophers Stone (2001)</title>		
+	</videos>
 </root>
