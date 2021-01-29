@@ -155,4 +155,14 @@
 		<linkvideo>https://mega.nz/embed/RAUXTaaR#wKeBJSEl-GMXW-pNPolpgpuONFlBy6HwqmGE0vyfnSY</linkvideo>	
 		<title>Harry Potter and the Chamber of Secrets (2002)</title>		
 	</videos>
+	<videos name="harrypotter">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://drive.google.com/file/d/1awBkl8qjt5EJD1OgU4cjVxeenSyrBuJo/preview</linkvideo>	
+		<title>Harry Potter and the Prisoner of Azkaban (2004)</title>		
+	</videos>
+	<videos name="harrypotter">
+		<linkimage>image.jpg</linkimage>
+		<linkvideo>https://drive.google.com/file/d/1wM11XUWMug4951WS_5AsDS9Kpe8Jylk5/preview</linkvideo>	
+		<title>Harry Potter and the Goblet of Fire (2005)</title>		
+	</videos>
 </root>
